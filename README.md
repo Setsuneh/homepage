@@ -16,9 +16,8 @@ Install it doesn't require SQL Database to use Homepage. I recommand to install 
 
 </br>
 
-**Please use these commands on root.**
+**/!\ Please use these commands on root.**
 
-</br>
 </br>
 
 ##### Requirements
