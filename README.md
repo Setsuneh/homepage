@@ -12,10 +12,12 @@ Une page de démo est disponible à [cette adresse](http://generation-linux.fr/h
 ------
 </br>
 
-Install it doesn't require SQL Database to use Homepage. I recommand to install PHP7.1 + Apache2 with the last requirements.To install it, please use the next console. Only on Ubuntu 16.04 for the moment.
+Install it doesn't require SQL Database to use Homepage. I recommand to install PHP7.1 + Apache2 with the last requirements.To install it, please use the next console. Only on Ubuntu 16.04 LTS for the moment.
 
 </br>
-** /!\ Please use these commands on root. **
+
+**Please use these commands on root.**
+
 </br>
 </br>
 
@@ -43,7 +45,10 @@ Install it doesn't require SQL Database to use Homepage. I recommand to install 
 </br>
 </br>
 
-#### Conseils
+<b> How to use Homepage </b>
+------
+</br>
+
 Afin de vous aider dans l'adoption de cet outil, voici quelques conseils et remarques :
 
 ##### Site entier
