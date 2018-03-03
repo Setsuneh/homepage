@@ -15,7 +15,7 @@ Une page de démo est disponible à [cette adresse](http://generation-linux.fr/h
 Install it doesn't require SQL Database to use Homepage. I recommand to install PHP7.1 + Apache2 with the last requirements.To install it, please use the next console. Only on Ubuntu 16.04 for the moment.
 
 </br>
-**/!\ Please use these commands on root.**
+** /!\ Please use these commands on root. **
 </br>
 </br>
 
