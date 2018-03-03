@@ -13,9 +13,6 @@ Une page de démo est disponible à [cette adresse](http://generation-linux.fr/h
 </br>
 
 Install it doesn't require SQL Database to use Homepage. I recommand to install PHP7.1 + Apache2 with the last requirements.To install it, please use the next console. Only on Ubuntu 16.04 LTS for the moment.
-
-</br>
-
 **/!\ Please use these commands on root.**
 
 </br>
@@ -24,7 +21,6 @@ Install it doesn't require SQL Database to use Homepage. I recommand to install 
 > $ apt-get update && apt-get -y dist-upgrade </br>
 > $ apt-get -y install dialog unzip zip dirmngr unattended-upgrades needrestart </br>
 > $ dpkg-reconfigure unattended-upgrades
-
 </br>
 
 ##### PHP7.1
@@ -34,7 +30,6 @@ Install it doesn't require SQL Database to use Homepage. I recommand to install 
 > $ apt-get -y install --no-install-recommends php7.1 php7.1-fpm php7.1-curl php7.1-json php7.1-gd php7.1-mcrypt php7.1-msgpack php7.1-memcached php7.1-intl php7.1-gmp php7.1-geoip php7.1-mbstring php7.1-redis php7.1-xml php7.1-zip </br>
 > $ mkdir -p /var/lib/php7.1-fpm/ </br>
 > $ service php7.1-fpm restart </br>
-
 </br>
 
 ##### Apache2
