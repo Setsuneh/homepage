@@ -20,21 +20,25 @@ Install it doesn't require SQL Database to use Homepage. I recommand to install 
 </br>
 
 ##### Requirements
-> apt-get update && apt-get -y dist-upgrade </br>
-> apt-get -y install dialog unzip zip dirmngr unattended-upgrades needrestart</br>
-> dpkg-reconfigure unattended-upgrades
+> $ apt-get update && apt-get -y dist-upgrade </br>
+> $ apt-get -y install dialog unzip zip dirmngr unattended-upgrades needrestart </br>
+> $ dpkg-reconfigure unattended-upgrades
+
+</br>
 
 ##### PHP7.1
-> apt-get -y install apt-transport-https lsb-release ca-certificates nano curl git</br>
-> add-apt-repository ppa:ondrej/php</br>
-> apt-get update && apt-get -y dist-upgrade</br>
-> apt-get -y install --no-install-recommends php7.1 php7.1-fpm php7.1-curl php7.1-json php7.1-gd php7.1-mcrypt php7.1-msgpack php7.1-memcached php7.1-intl php7.1-gmp php7.1-geoip php7.1-mbstring php7.1-redis php7.1-xml php7.1-zip</br>
-> mkdir -p /var/lib/php7.1-fpm/</br>
-> service php7.1-fpm restart</br>
+> $ apt-get -y install apt-transport-https lsb-release ca-certificates nano curl git </br>
+> $ add-apt-repository ppa:ondrej/php </br>
+> $ apt-get update && apt-get -y dist-upgrade </br>
+> $ apt-get -y install --no-install-recommends php7.1 php7.1-fpm php7.1-curl php7.1-json php7.1-gd php7.1-mcrypt php7.1-msgpack php7.1-memcached php7.1-intl php7.1-gmp php7.1-geoip php7.1-mbstring php7.1-redis php7.1-xml php7.1-zip </br>
+> $ mkdir -p /var/lib/php7.1-fpm/ </br>
+> $ service php7.1-fpm restart </br>
+
+</br>
 
 ##### Apache2
-> apt install --no-install-recommends php7.1 libapache2-mod-php7.1 php7.1-curl php7.1-json php7.1-gd php7.1-mcrypt php7.1-msgpack php7.1-memcached php7.1-intl php7.1-gmp php7.1-geoip php7.1-mbstring php7.1-redis php7.1-xml php7.1-zip
-> service php7.1-fpm restart && service apache2 restart
+> $ apt install --no-install-recommends php7.1 libapache2-mod-php7.1 php7.1-curl php7.1-json php7.1-gd php7.1-mcrypt php7.1-msgpack php7.1-memcached php7.1-intl php7.1-gmp php7.1-geoip php7.1-mbstring php7.1-redis php7.1-xml php7.1-zip </br>
+> $ service php7.1-fpm restart && service apache2 restart </br>
 
 </br>
 </br>
