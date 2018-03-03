@@ -43,7 +43,7 @@ Install it doesn't require SQL Database to use Homepage. I recommand to install 
 </br>
 </br>
 
-## Conseils
+#### Conseils
 Afin de vous aider dans l'adoption de cet outil, voici quelques conseils et remarques :
 
 ##### Site entier
