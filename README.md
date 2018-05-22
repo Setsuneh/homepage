@@ -25,7 +25,7 @@ Install it doesn't require SQL Database to use Homepage. I recommand to install 
 > $ wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg </br>
 > $ "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/php.list </br>
 > $ apt-get update </br>
-> $ apt-get install php7.2-cli </br>
+> $ apt-get install php7.1-cli </br>
 </br>
 
 ##### PHP7.1
