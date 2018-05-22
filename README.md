@@ -20,7 +20,12 @@ Install it doesn't require SQL Database to use Homepage. I recommand to install 
 ##### Requirements
 > $ apt-get update && apt-get -y dist-upgrade </br>
 > $ apt-get -y install dialog unzip zip dirmngr unattended-upgrades needrestart </br>
-> $ dpkg-reconfigure unattended-upgrades
+> $ dpkg-reconfigure unattended-upgrades </br></br>
+> $ apt-get install apt-transport-https lsb-release ca-certificates</br>
+> $ wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg </br>
+> $ "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/php.list </br>
+> $ apt-get update </br>
+> $ apt-get install php7.2-cli </br>
 </br>
 
 ##### PHP7.1
